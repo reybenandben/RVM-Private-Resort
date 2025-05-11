@@ -1,1 +1,0 @@
-# RVM-Private-Resort
