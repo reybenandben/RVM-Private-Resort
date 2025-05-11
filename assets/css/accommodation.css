@@ -1,0 +1,86 @@
+.accommodation{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accommodation-container{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-top: 30px;
+    text-align: center;
+    padding: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow:0px 3px 10px 0px #666666;
+}
+
+.accommodation-container .sched{
+    display: flex;
+    justify-content: space-between;
+}
+
+.accommodation-container2{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow:0px 3px 10px 0px #666666;
+}
+
+.accommodation-container2 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 10px 30px 10px 30px;
+}
+
+.accommodation-container3{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-top: 30px;
+    padding: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow:0px 3px 10px 0px #666666;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+
+.col img{
+    width: 400px;
+}
+
+.buttonbook{
+    height: 100px;
+}
+
+.buttonbook button{
+    width: 400px;
+    height: 40px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #623E2A;
+    cursor: pointer; 
+    font-weight: bold;
+    color: #623E2A;
+    background-color: #FFFFFF;
+}
+
